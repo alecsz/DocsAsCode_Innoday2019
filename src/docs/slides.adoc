@@ -1,4 +1,4 @@
-= Innoday 2019 Basissysteme
+= Innovationstag 2019 OpenSystems : Docs as Code
 
 :revealjs_history: true
 :revealjs_slidenumber: c/t
@@ -6,11 +6,11 @@
 :revealjs_plugins: revealjs-plugins.js
 :revealjs_plugins_configuration: revealjs-plugins-conf.js
 
-== DocAsCode mit AsciiDoc und Plantuml
+== DocsAsCode mit AsciiDoc und Plantuml
 
 image::DocAsCodeIntro.png[width="800px"]
 
-=== Herausforderungen einer guten Dokumentation
+== Herausforderungen einer guten Dokumentation
 * Technische Dokumentationen sind, wenn überhaupt:
 [%step]
 ** oft sehr schnell veraltet
@@ -37,7 +37,7 @@ das sie dokumentiert
 oder schlimmstenfalls irreführend ist
 ** wenn sich der entsprechende Code ändert?
 
-=== Vorteile der Verwendung der Methode DocAsCode
+== Vorteile der Verwendung der Methode DocAsCode
 [%step]
 * Automatisch generierte Dokumentation
 * Dokumentation befindet sich nah am Code
@@ -46,11 +46,11 @@ oder schlimmstenfalls irreführend ist
 * Kann lokal benutzt werden
 * Mediumunabhängige Dokumentation => kann nach Pdf, Wiki, Html usw. veröffentlicht werden
 
-=== Wie funktioniert es?
+== Wie funktioniert es?
 
 image::DocAsCodeInfrastructure.png[width="800px"]
 
-=== Was ist alles damit möglich?
+== Was ist alles damit möglich?
 
 [%step]
 * Modulare Dokumentation => Dateien miteinander verknüpfen
@@ -61,6 +61,34 @@ image::DocAsCodeInfrastructure.png[width="800px"]
 * Fußnoten
 * usw.
 
-=== Beispiele aus dem Alltag
+== Beispiele aus dem Alltag
 
-hier paar Beispiele mit Projekte aus der Badenia
+=== PlantUML Activity Diagram
+
+.Source
+[%step]
+[source]
+----
+include::plantuml/plantuml.activity.puml[indent=0]
+----
+
+.Generated
+[plantuml, plantuml.activity.puml, png]
+----
+include::plantuml/plantuml.activity.puml[]
+----
+
+=== PlantUML Sequence Diagram
+
+.Source
+[%step]
+[source]
+----
+include::plantuml/plantuml.sequence.puml[indent=0]
+----
+
+.Generated
+[plantuml, plantuml.sequence.puml, png]
+----
+include::plantuml/plantuml.sequence.puml[]
+----

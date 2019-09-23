@@ -1,0 +1,7 @@
+@startuml
+actor Entwickler
+database BitBucket
+
+Entwickler -> BitBucket : Code pull & push
+
+@enduml
