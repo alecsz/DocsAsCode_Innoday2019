@@ -1,0 +1,7 @@
+@startuml
+start
+if (Dokumentation nicht vollständig) then (ja)
+    - Dokumentation vervollständig;
+endif
+stop
+@enduml
