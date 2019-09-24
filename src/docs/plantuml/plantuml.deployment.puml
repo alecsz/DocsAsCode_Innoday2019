@@ -1,0 +1,11 @@
+@startuml
+folder folder [
+This is a <b>folder]
+
+database database [
+This is a <b>database]
+
+usecase usecase [
+This is a <b>usecase]
+
+@enduml

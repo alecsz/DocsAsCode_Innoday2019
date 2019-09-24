@@ -16,9 +16,10 @@ image::DocAsCodeIntro.png[width="800px"]
 ** oft sehr schnell veraltet
 ** die Dokumentation befindet sich weit entfernt von dem Thema
 das sie dokumentiert
+[.red]
 ** dem Code
 
-=== Herausforderungen einer guten Dokumentation
+== Herausforderungen einer guten Dokumentation
 * Medienbruch um die Doku zu aktualisieren:
 [%step]
 ** Dokumentation ist nicht in IDE verfügbar
@@ -92,3 +93,70 @@ include::plantuml/plantuml.sequence.puml[indent=0]
 ----
 include::plantuml/plantuml.sequence.puml[]
 ----
+
+=== PlantUML Class Diagram
+
+.Source
+[%step]
+[source]
+----
+include::plantuml/plantuml.classdiagram.puml[indent=0]
+----
+
+=== PlantUML Class Diagram
+.Generated
+[plantuml, plantuml.classdiagram.puml, png]
+----
+include::plantuml/plantuml.classdiagram.puml[]
+----
+
+=== PlantUML Component Diagram
+
+.Source
+[%step]
+[source]
+----
+include::plantuml/plantuml.component.puml[indent=0]
+----
+
+=== PlantUML Component Diagram
+.Generated
+[plantuml, plantuml.component.puml, png]
+----
+include::plantuml/plantuml.component.puml[]
+----
+
+
+=== PlantUML Timing Diagram
+
+.Source
+[%step]
+[source]
+----
+include::plantuml/plantuml.timing.puml[indent=0]
+----
+
+=== PlantUML Timing Diagram
+.Generated
+[plantuml, plantuml.timing.puml, png]
+----
+include::plantuml/plantuml.timing.puml[]
+----
+
+=== PlantUML Deployment Diagram
+
+.Source
+[%step]
+[source]
+----
+include::plantuml/plantuml.deployment.puml[indent=0]
+----
+
+.Generated
+[plantuml, plantuml.deployment.puml, png]
+----
+include::plantuml/plantuml.deployment.puml[]
+----
+
+
+
