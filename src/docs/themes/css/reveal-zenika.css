@@ -158,7 +158,7 @@ body {
 .reveal table tbody tr:last-child th, .reveal table tbody tr:last-child td {
   border-bottom: none;
 }
-
+[.halign-center]
 .reveal .slides table.no-border,
 .reveal .slides table.no-border tr td,
 .reveal .slides table.no-border tr th {
@@ -177,6 +177,7 @@ body {
   letter-spacing: 0.04em;
 }
 
+
 .reveal h1 {
   height: 40%;
   display: flex;
@@ -190,7 +191,7 @@ body {
 .reveal h2, .reveal h3, #toctitle {
   margin: 0px 0px 40px -20px;
   padding: 0 0 0px 20px;
-  text-align: left;
+  text-align: center;
   font-size: 40px;
 }
 

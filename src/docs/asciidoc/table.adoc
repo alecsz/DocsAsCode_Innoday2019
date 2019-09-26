@@ -1,0 +1,12 @@
+.Table Title
+|===
+|Name of Col 1 |Name of Col 2 |Name of Col 3
+
+|Cell in col 1, row 1
+|Cell in col 2, row 1
+|Cell in col 3, row 1
+
+|Cell in col 1, row 2
+|Cell in col 2, row 2
+|Cell in col 3, row 2
+|===

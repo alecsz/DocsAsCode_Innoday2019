@@ -64,7 +64,49 @@ image::DocAsCodeInfrastructure.png[width="800px"]
 
 == Beispiele aus dem Alltag
 
+=== AsciiDoc Tabellen
+.Generated
+include::asciidoc/table.adoc[]
+{empty} +
+
+.Source
+[source]
+----
+include::asciidoc/table.adoc[]
+----
+
+=== AsciiDoc SourceCode einbinden
+.Generated
+:sourcedir: ../main/java
+
+[source,java]
+----
+include::{sourcedir}/Main.java[]
+----
+{empty} +
+
+.Source
+[source]
+----
+:sourcedir: ../main/java
+
+[source,java]
+'----
+'include::{sourcedir}/Main.java[]
+'----
+----
+
+
+
 === PlantUML Activity Diagram
+
+.Generated
+[plantuml, plantuml.activity.puml, png]
+----
+include::plantuml/plantuml.activity.puml[]
+----
+
+{empty} +
 
 .Source
 [%step]
@@ -73,13 +115,15 @@ image::DocAsCodeInfrastructure.png[width="800px"]
 include::plantuml/plantuml.activity.puml[indent=0]
 ----
 
-.Generated
-[plantuml, plantuml.activity.puml, png]
-----
-include::plantuml/plantuml.activity.puml[]
-----
 
 === PlantUML Sequence Diagram
+
+.Generated
+[plantuml, plantuml.sequence.puml, png]
+----
+include::plantuml/plantuml.sequence.puml[]
+----
+{empty} +
 
 .Source
 [%step]
@@ -88,10 +132,11 @@ include::plantuml/plantuml.activity.puml[]
 include::plantuml/plantuml.sequence.puml[indent=0]
 ----
 
+=== PlantUML Class Diagram
 .Generated
-[plantuml, plantuml.sequence.puml, png]
+[plantuml, plantuml.classdiagram.puml, png]
 ----
-include::plantuml/plantuml.sequence.puml[]
+include::plantuml/plantuml.classdiagram.puml[]
 ----
 
 === PlantUML Class Diagram
@@ -103,11 +148,11 @@ include::plantuml/plantuml.sequence.puml[]
 include::plantuml/plantuml.classdiagram.puml[indent=0]
 ----
 
-=== PlantUML Class Diagram
+=== PlantUML Component Diagram
 .Generated
-[plantuml, plantuml.classdiagram.puml, png]
+[plantuml, plantuml.component.puml, png]
 ----
-include::plantuml/plantuml.classdiagram.puml[]
+include::plantuml/plantuml.component.puml[]
 ----
 
 === PlantUML Component Diagram
@@ -119,31 +164,47 @@ include::plantuml/plantuml.classdiagram.puml[]
 include::plantuml/plantuml.component.puml[indent=0]
 ----
 
-=== PlantUML Component Diagram
+
+=== PlantUML Salt Diagram
 .Generated
-[plantuml, plantuml.component.puml, png]
+[plantuml, plantuml.salt.puml, png]
 ----
-include::plantuml/plantuml.component.puml[]
+include::plantuml/plantuml.salt.puml[]
 ----
 
-
-=== PlantUML Timing Diagram
+=== PlantUML Salt Diagram
 
 .Source
 [%step]
 [source]
 ----
-include::plantuml/plantuml.timing.puml[indent=0]
+include::plantuml/plantuml.salt.puml[indent=0]
 ----
 
-=== PlantUML Timing Diagram
+=== PlantUML MindMap Diagram
 .Generated
-[plantuml, plantuml.timing.puml, png]
+[plantuml, plantuml.mindmao.puml, png]
 ----
-include::plantuml/plantuml.timing.puml[]
+include::plantuml/plantuml.mindmap.puml[]
 ----
+
+=== PlantUML MinMmap Diagram
+
+.Source
+[%step]
+[source]
+----
+include::plantuml/plantuml.mindmap.puml[indent=0]
+----
+
 
 === PlantUML Deployment Diagram
+.Generated
+[plantuml, plantuml.deployment.puml, png]
+----
+include::plantuml/plantuml.deployment.puml[]
+----
+{empty} +
 
 .Source
 [%step]
@@ -152,11 +213,10 @@ include::plantuml/plantuml.timing.puml[]
 include::plantuml/plantuml.deployment.puml[indent=0]
 ----
 
-.Generated
-[plantuml, plantuml.deployment.puml, png]
-----
-include::plantuml/plantuml.deployment.puml[]
-----
+== Fragen?
+
+image::fragen.png[width="800px"]
+
 
 
 
